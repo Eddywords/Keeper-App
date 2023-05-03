@@ -12,16 +12,10 @@
 //HINT: You will need to study the classes in teh styles.css file to appy styling.
 import React from "react";
 import ReactDOM from 'react-dom'
-import Header from "./components/Header";
-import Note from "./components/Note";
-import Footer from "./components/Footer";
 
-function Site() {
-        return <div><Header/>
-        <Note/>
-        <Footer/>
-        </div>
-}
+import App from "./components/App";
 
 
-ReactDOM.render(<Site/>, document.getElementById('root'));
+
+
+ReactDOM.render(<App/>, document.getElementById('root'));
